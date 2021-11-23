@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/saber/.nvm/versions/node/v16.1.0/bin/node /Users/saber/.nvm/versions/node/v16.1.0/bin/yarn add @arco-themes/react-digitforce
+
+PATH: 
+  /Users/saber/.rbenv/shims:/Users/saber/.rbenv/bin:/Applications/Racket v8.1/bin:/Users/saber/.nvm/versions/node/v16.1.0/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/saber/.rbenv/shims:/Users/saber/.rbenv/bin:/Applications/Racket v8.1/bin:/Users/saber/.nvm/versions/node/v16.1.0/bin:/usr/local/sbin:/Users/saber/.cargo/bin:/Users/saber/.rvm/bin:/Users/saber/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://nexus.digitforce.com/repository/npm-public/@arco-themes%2freact-digitforce: Not found
+      at Request.params.callback [as _callback] (/Users/saber/.nvm/versions/node/v16.1.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/saber/.nvm/versions/node/v16.1.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:365:28)
+      at Request.<anonymous> (/Users/saber/.nvm/versions/node/v16.1.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:365:28)
+      at IncomingMessage.<anonymous> (/Users/saber/.nvm/versions/node/v16.1.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:471:28)
+      at IncomingMessage.emit (node:events:377:35)
+      at endReadableNT (node:internal/streams/readable:1312:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "tailwind-digitforce-theme",
+    "version": "0.0.1",
+    "description": "tailwind css 工具",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

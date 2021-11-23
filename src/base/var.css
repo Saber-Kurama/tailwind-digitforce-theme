@@ -1,0 +1,94 @@
+/* // 定义 一下 css3 的变量 
+// 原子设计
+// 主题 到底包含 什么呢
+// 颜色 
+// 字体
+// 边框
+// 阴影
+// 尺寸
+// 图标
+// 哪些应该作为 编译变量， 哪些应该作为 运行变量呢？？？
+// 其实这些主要是根据 换肤 功能的方案
+// 1. 先把 上述的变量 设置 为 css 变量 参照 arco.design的设置变量
+// 后续是否 可以根据 主题平台 生成呢 */
+:root{
+  /* // 品牌色 */
+  --primary-1: #E8F3FF;
+  /* --primary-2: '#BEDAFF';
+  --primary-3: '#94BFFF';
+  --primary-4: '#6AA1FF';
+  --primary-5: '#4080FF';
+  --primary-6: '#165DFF';
+  --primary-7: '#0E42D2';
+  
+  // 中性色
+  // 线条
+  --color-border-1: '#F2F3F5';
+  --color-border-2: '#E5E6EB';
+  --color-border-3: '#C9CDD4';
+  --color-border-4: '#86909C';
+  // 填充
+  --color-bg-white: '#fff';
+  --color-fill-1: '#F7F8FA';
+  --color-fill-2: '#F2F3F5';
+  --color-fill-3: '#E5E6EB';
+  --color-fill-4: '#C9CDD4';
+  // 文字
+  --color-text-1: '#1D2129';
+  --color-text-2: '#4E5969';
+  --color-text-3: '#86909C';
+  --color-text-4: '#C9CDD4';
+  --color-white: '#fff';
+  // 背景色
+  --color-bg-1: '#fff';
+  --color-bg-2: '#fff';
+  --color-bg-3: '#fff';
+  --color-bg-4: '#fff';
+  --color-bg-5: '#fff';
+
+  // 功能色
+  // 警示色
+  --warning-1: '#FFF7E8';
+  --warning-2: '#FFE4BA';
+  --warning-3: '#FFCF8B';
+  --warning-4: '#FFB65D';
+  --warning-5: '#FF9A2E';
+  --warning-6: '#FF7D00';
+  --warning-7: '#D25F00';
+  // 成功色
+  --success-1: '#FFF7E8';
+  --success-2: '#FFE4BA';
+  --success-3: '#FFCF8B';
+  --success-4: '#FFB65D';
+  --success-5: '#FF9A2E';
+  --success-6: '#FF7D00';
+  --success-7: '#D25F00'; 
+  // 错误色
+  --danger-1: '#FFF7E8';
+  --danger-2: '#FFE4BA';
+  --danger-3: '#FFCF8B';
+  --danger-4: '#FFB65D';
+  --danger-5: '#FF9A2E';
+  --danger-6: '#FF7D00';
+  --danger-7: '#D25F00'; 
+  // 链接色
+  --link-1: '#FFF7E8';
+  --link-2: '#FFE4BA';
+  --link-3: '#FFCF8B';
+  --link-4: '#FFB65D';
+  --link-5: '#FF9A2E';
+  --link-6: '#FF7D00';
+  --link-7: '#D25F00';  */
+  
+ 
+
+}
+ /* // 字体
+
+  // 边框
+
+  // 阴影
+
+  // 尺寸
+
+  // 图标 */

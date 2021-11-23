@@ -1,0 +1,46 @@
+{
+  "name": "tailwind-digitforce-theme",
+  "version": "0.0.1",
+  "description": "tailwind css 工具",
+  "main": "index.js",
+  "typings": "index.js",
+  "files": [
+    "dist/*.js",
+    "dist/{themes,styled,unstyled,full}.css",
+    "!dist/*.rtl.css",
+    "index.js",
+    "colors"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master",
+      "main"
+    ]
+  },
+  "scripts": {
+    "index": "cp -R ./src/index.js ./index.js",
+    "colors": "cp -R ./src/colors ./colors",
+    "prebase": "postcss --config src/base src/base/*.css --base src --dir dist",
+    "base": "cat dist/base/*.css > dist/base.css",
+    "postbase": "prejss-cli dist/base.css --format commonjs",
+    "build": "npm run index && npm run colors && npm run base",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@arco-themes/react-digitforce": "^0.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.0.4",
+    "cssnano": "4.1.10",
+    "postcss": "8.1.10",
+    "postcss-cli": "8.3.0",
+    "postcss-import": "13.0.0",
+    "postcss-nested": "5.0.1",
+    "prejss-cli": "0.3.3",
+    "rtlcss": "3.0.0",
+    "tailwindcss": "2.0.1"
+  }
+}
